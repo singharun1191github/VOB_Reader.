@@ -76,7 +76,7 @@ if file:
 
     # Overall Scrap
     overall_scrap = df[
-        df["Scrap Line*"] == "YES"
+        df["Scrap Line*"] == "Y"
     ]
 
     overall_scrap_po = overall_scrap[
@@ -265,7 +265,7 @@ if file:
 
     # Scrap
     scrap = filtered_df[
-        filtered_df["Scrap Line*"] == "YES"
+        filtered_df["Scrap Line*"] == "Y"
     ]
 
     scrap_po = scrap[
